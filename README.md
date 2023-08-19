@@ -17,6 +17,9 @@ For training and evaluation, the test data called [Student's Academic Performanc
 3️⃣ Model Implementation and Training:
 - The models were designed and implemented using Tensorflow.
 - For the initial case, a neural network was constructed with three intermediate layers using Dense or fully connected layers.
+
+<div align="center"><img src="https://github.com/HosnawHb/Tensorflow-Student-Academic-Performance/blob/main/Pic.png?raw=true"width="60%"/></div> </br >
+
 - The number of layers was gradually increased, and different architectures and hyperparameters were experimented with.
 - Various activation functions, such as tanh, sigmoid, and ReLU, were explored to enhance the performance of the models.
 - For the output layer, techniques like softmax or one-vs-all with sigmoid were considered.
@@ -27,5 +30,9 @@ For training and evaluation, the test data called [Student's Academic Performanc
 - Among the developed models, the top three models based on their achieved accuracy were selected.
 - These models were subjected to k-fold cross validation, specifically with k=5, to further validate their performance.
 - Evaluation of the models using various performance metrics, including the Confusion Matrix, was performed.
+
+## Team Members
+[Hosna Habibi](https://github.com/HosnawHb) </br>
+[Pooya Kavosh](https://github.com/Jarvis017) </br>
 
 Please refer to the code in the repository for a step-by-step guide on implementing the neural network, training the model, and evaluating its performance.
