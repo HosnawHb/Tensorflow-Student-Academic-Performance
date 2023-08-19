@@ -23,3 +23,9 @@ For training and evaluation, the test data called [Student's Academic Performanc
 - Throughout the model training process, graphs illustrating changes in accuracy and loss for each epoch were plotted to monitor overfitting.
 - Techniques like Dropout and Batch Normalization were incorporated to assess their impact on accuracy and loss. It was ensured that Dropout and Batch Normalization were not used together.
 
+4️⃣ K-fold Cross Validation and Model Selection:
+- Among the developed models, the top three models based on their achieved accuracy were selected.
+- These models were subjected to k-fold cross validation, specifically with k=5, to further validate their performance.
+- Evaluation of the models using various performance metrics, including the Confusion Matrix, was performed.
+
+Please refer to the code in the repository for a step-by-step guide on implementing the neural network, training the model, and evaluating its performance.
